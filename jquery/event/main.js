@@ -1,4 +1,4 @@
-window.onload=function(){
+﻿window.onload=function(){
 
 
 
@@ -6,7 +6,7 @@ window.onload=function(){
 
 $(".btn").click(function(){
     var tx=$(".content").val();
-    var li=$("<li>"+tx+"<a href='javascript:;'>ɾ��</a></li>")
+    var li=$("<li>"+tx+"<a href='javascript:;'>删除</a></li>")
    $(".sendbar").prepend(li);
 })
 

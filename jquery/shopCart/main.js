@@ -1,4 +1,4 @@
-window.onload=function(){
+ï»¿window.onload=function(){
 
 
 
@@ -25,7 +25,7 @@ $(".increase").click(function(){
     //var p1 = parseInt($(this).siblings().eq(2).text().substr(4)).toFixed(2);
     var p1=Number($(this).siblings(".price").text().substr(4));
     //alert(typeof(n));
-   $(this).siblings(".subtotal").text('Ğ¡¼Æ:£¤'+(p1*n).toFixed(2));
+   $(this).siblings(".subtotal").text('å°è®¡:ï¿¥'+(p1*n).toFixed(2));
     getsum();
 });
 
@@ -36,7 +36,7 @@ $(".recrease").click(function(){
     $(this).siblings(".amount").val(n);
     var p1=Number($(this).siblings(".price").text().substr(4));
     //alert(typeof(n));
-   $(this).siblings(".subtotal").text('Ğ¡¼Æ:£¤'+(p1*n).toFixed(2));
+   $(this).siblings(".subtotal").text('å°è®¡:ï¿¥'+(p1*n).toFixed(2));
     getsum()
 }); 
 
@@ -44,11 +44,11 @@ $(".recrease").click(function(){
 $(".amount").change(function(){
     var oT=$(this).val();
     var oprice=($(this).siblings(".price").html().substr(4));
-$(this).siblings(".subtotal").text("Ğ¡¼Æ:£¤"+(oprice*oT).toFixed(2));
+$(this).siblings(".subtotal").text("å°è®¡:ï¿¥"+(oprice*oT).toFixed(2));
         getsum();
 })
 
-//×Ü¼ÆÄ£¿é
+//æ€»è®¡æ¨¡å—
 function getsum(){
     var count=0;
     var money=0;
@@ -57,17 +57,17 @@ function getsum(){
         count+=parseInt($(ele).val());
     });
 
-        $(".countA").text("¼şÊı£º"+count);
+        $(".countA").text("ä»¶æ•°ï¼š"+count);
 
     $(".subtotal").each(function(i,ele){
         money+=parseFloat($(ele).text().substr(4));
     });
 
-        $(".moneyA").text("×Ü¼Æ:"+money.toFixed(2));
+        $(".moneyA").text("æ€»è®¡:"+money.toFixed(2));
 
 }
 
-//É¾³ıÄ£¿é
+//åˆ é™¤æ¨¡å—
 
 $(".del").click(function(){
     $(this).parent().remove();

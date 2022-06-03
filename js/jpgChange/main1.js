@@ -1,4 +1,4 @@
-﻿
+
 
 
 window.onload=function(){
@@ -17,12 +17,12 @@ window.onload=function(){
   opic.src=arr[0];
   obtn[0].onclick=function(){
     onoff=true;
-    op.innerHTML="顺序模式";
+    op.innerHTML="˳��ģʽ";
   }
   
   obtn[1].onclick=function(){
     onoff=false;
-    op.innerHTML="循环模式";
+    op.innerHTML="ѭ��ģʽ";
   }
   
   obtn[3].onclick=function(){
