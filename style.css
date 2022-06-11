@@ -1,11 +1,11 @@
 ﻿* {margin:0px; padding:0px;}
 .clearfix::after, .clearfix::before{content:""; display: block; clear: both;}
 #app {
-    border:1px solid ;
     position:relative;
-    width:1000px;
-    height:900px;
+    width:1200px;
+    height:960px;
     margin: 0 auto;
+	overflow:hidden;
 }
 
 .top{
@@ -21,15 +21,14 @@
 
 
 .left{
-    width:200px;
-    height:800px;
+    width:20%;
+    height:100%;
     background:#eeeeee;
 }
 
 .main{
-    
-    width:800px;
-    height:800px;
+    width:80%;
+    height:100%;
 }
 .main iframe{
     width:100%;

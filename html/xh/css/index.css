@@ -19,6 +19,7 @@ ul{
 }
 .search-index{
 	display: flex;
+	//固定定位跟父级没有关系,它以屏幕为准
 	position:fixed;
 	top:0;
 	left:0;
