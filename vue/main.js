@@ -1,6 +1,6 @@
 ﻿window.onload = function(){
 
-var app = document.getElementById('app');
+
 var menu = document.getElementById('menu');
 var lis = menu.getElementsByTagName('li');
 var dls = menu.getElementsByTagName('dl');
@@ -36,8 +36,7 @@ for (var i = 0; i < lis.length; i++) {
     lis[i].index = i;
 
     lis[i].onclick = function () {
-		//alert(window.innerHeight)
-		app.style.height = (window.innerHeight - 100)*0.0625 + 'rem';
+
         for (var i = 0; i < lis.length; i++) {
             lis[i].className = '';
             dls[i].style.display = 'none';
@@ -54,7 +53,6 @@ for (var i = 0; i < lis.length; i++) {
             dds[i].onclick = function () {
                 //alert(arr[x][this.index]);
                 ifm.src=arr[x][this.index].url;
-				
 	document.getElementById('tail').innerHTML= arr[x][this.index].text;
             }
         }

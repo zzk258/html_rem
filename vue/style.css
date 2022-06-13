@@ -1,39 +1,26 @@
-* {margin:0px; padding:0px;box-sizing: border-box;}
+﻿* {margin:0px; padding:0px;}
 .clearfix::after, .clearfix::before{content:""; display: block; clear: both;}
-body{
-	min-width:46.875rem;
-	max-width:75rem;
-	margin:0 auto;
-	background-color: #f2f4f7;
-}
-
-
-@media screen and(min-width:750px){
-	html{
-		font-size: 37.5px !important;
-	}
-}
 #app {
     position:relative;
-    width:100%;
+    width:1200px;
+    height:960px;
     margin: 0 auto;
-	
+	overflow:hidden;
 }
 
 .top{
     width:100%;
-    height:6.25rem;
+    height:100px;
     background:#00a4bf;
 }
 
 .top span{
     display: block;
-    padding: 3.125rem 5rem;
+    padding: 50px 80px;
 }
 
 
 .left{
-	position: relative;
     width:20%;
     height:100%;
     background:#eeeeee;
@@ -41,12 +28,11 @@ body{
 
 .main{
     width:80%;
-    height: 100%;
+    height:100%;
 }
 .main iframe{
     width:100%;
-     height:100%;
-	
+    height:100%;
 }
 
 .fl{
@@ -57,24 +43,24 @@ body{
 }
 
 .brief{
-    position: absolute;	
-    top: 28.75rem;	
-	height:6.25rem
+    position: absolute;
+    top: 460px;
+    left:10px;
 }
-.brief a{		
+.brief a{
     display: block;
-    width:100%;	
+    width:180px;
     text-indent: 2em;
     word-wrap: break-word; 
     word-break: normal;
 }
 
 
-#div1 {width:100%; margin:0.9375rem auto; line-height:1.5625rem;}
+#div1 {width:200px; margin:15px auto; line-height:25px;}
 
 ul {list-style:none;}
 
-li {background:#ccc;margin-bottom:0.1875rem;text-indent: 0.5em;}
+li {background:#ccc;margin-bottom:3px;text-indent: 0.5em;}
 
 dl {
     text-indent: 1.5em;
