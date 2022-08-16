@@ -1,4 +1,4 @@
-window.onload = function() {
+﻿window.onload = function() {
 
 	var app = document.getElementById('app');
 	var menu = document.getElementById('menu');
@@ -79,6 +79,10 @@ window.onload = function() {
 			{
 				url: 'jquery/shopCart/index.html',
 				text: 'jqueryj4'
+			},
+						{
+				url: 'vue/musicSeach/index.html',
+				text: 'axios+vue音乐播放器'
 			},
 		]
 	]

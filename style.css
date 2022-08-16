@@ -20,6 +20,12 @@ body {
 
 
 @media screen and (min-width:24.375rem) {
+	.top {
+		height:50px;
+	}
+	.top span {
+		
+	}
 	dl dd {
 		text-indent: 1em !important;
 	}
