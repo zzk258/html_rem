@@ -1,5 +1,7 @@
 ﻿window.onload=function(){
 
+//http://autumnfish.cn/search?keywords=
+
 
 var div1=new Vue({
     el:'#app',
@@ -7,7 +9,7 @@ var div1=new Vue({
         mdata:'c',
         mlist:[],
         murl:'',
-        mpic:'',
+        mpic:'https://p2.music.126.net/MLQl_7poLz2PTON6_JZZRQ==/109951163938219545.jpg',
         comment:[],
         showImg:false,
     },
@@ -57,12 +59,5 @@ var div1=new Vue({
         this.sh();
     }
 });
-
-
-}
-
-
-
-
 
 }
