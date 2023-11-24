@@ -9,7 +9,7 @@ var div1=new Vue({
         mdata:'c',
         mlist:[],
         murl:'',
-        mpic:'https://p2.music.126.net/MLQl_7poLz2PTON6_JZZRQ==/109951163938219545.jpg',
+        mpic:'v2.jpg',
         comment:[],
         showImg:false,
     },
